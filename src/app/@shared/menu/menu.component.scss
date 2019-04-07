@@ -1,0 +1,42 @@
+.bg-black {
+  background: black;
+  height: 40px;
+  li {
+    background-image: url("/assets/img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px;
+  }
+  li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+}
+.menu {
+  background: #5e299a;
+  .logo {
+    height: 70px;
+    img {
+      z-index: 2;
+      position: absolute;
+    }
+  }
+}
+.navbar {
+  padding-bottom: 0px;
+  background: #5e299a;
+  .nav-item {
+    color: #fde192;
+    margin-left: 5px;
+    &:hover {
+      border-bottom: 5px solid;
+    }
+    &.active {
+      border-bottom: 5px solid;
+    }
+    a {
+      color: #fde192;
+    }
+  }
+}
