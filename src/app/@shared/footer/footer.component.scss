@@ -1,0 +1,29 @@
+footer {
+  background: #11171d;
+  color: #462969;
+
+  .about {
+    background: #171f26;
+    color: #fde192;
+    h4 {
+      color: #462969;
+    }
+    ul {
+      padding: 0px;
+      li {
+        list-style: none;
+      }
+    }
+
+    .social-networks {
+      img {
+        width: 28px;
+        margin: 10px;
+        color: #fde192;
+      }
+    }
+  }
+  .developed {
+    padding: 20px;
+  }
+}
